@@ -1,15 +1,14 @@
-
 name: NEXO Family Auto Build
 
 on:
   push:
     branches:
       - main
-    - master
-  paths:
-    - '*.zip'
-    - '**/*.zip'
-    - '.github/workflows/build.yml'
+      - master
+    paths:
+      - '*.zip'
+      - '**/*.zip'
+      - '.github/workflows/build.yml'
   workflow_dispatch:
 
 permissions:
